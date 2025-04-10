@@ -1,5 +1,5 @@
 # install_deps = ['numpy>=1.22.4,<=1.26.4', # will need to wait a bit for cythonized packages to catch up to numpy 2.0
-install_deps = ['numba>=0.61.0', # let numba control numpy version 
+install_deps = ['numba', # let numba control numpy version 
                 # 'numpy>=1.22.4,<2', # maybe it is safe now? Nope, as of January 2025
                 'scipy', 
                 'edt',
