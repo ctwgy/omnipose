@@ -12,7 +12,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name="omnipose",
-    use_scm_version=True,
+    # use_scm_version=True,
     author="Kevin Cutler",
     author_email="kevinjohncutler@outlook.com",
     description="cell segmentation algorithm improving on the Cellpose framework",
